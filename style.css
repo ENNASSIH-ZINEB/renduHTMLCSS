@@ -1,43 +1,136 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-header{
+
+header {
     background-color: beige;
     display: flex;
     color: #46352A;
     justify-content: space-between;
+    align-items: center;
 }
+
 nav {
     display: flex;
     justify-content: flex-end;
 }
-ul{
+
+ul {
     display: flex;
     list-style-type: none;
     gap: 20px;
 }
-.sect1{
+
+.sect1 {
     background-color: #46352A;
-    display: flex;    
+    display: flex;
 }
-#bougie{
+
+#bougie {
     width: 50%;
 }
-.div1{    
+
+.div1 {
     display: flex;
     justify-content: center;
     width: 50%;
     flex-direction: column;
     align-items: center;
 }
-.sect2{
+
+.sect2 {
+    background-color: beige;
     text-align: center;
+
+    * {
+        padding: 2%;
+    }
+
 }
-.div2{
+
+.div2 {
     display: flex;
     justify-content: space-around
 }
-.art1{
+
+.art1 {
     border: 1px solid #46352A;
+    padding: 10px;
+}
+
+.p1 {
+    background-color: rgb(78, 134, 78);
+    text-align: center;
+    color: white;
+    padding: 2%;
+}
+
+h2 {
+    text-align: center;
+    padding: 2%;
+}
+
+.sect3 {
+    background-color: beige;
+
+    * {
+        padding: 2%;
+    }
+}
+
+.div3 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.art2 {
+    border: 1px solid #46352A;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.411);
+    padding: 2%;
+    width: 180px;
+    border-radius: 10px;
+
+    * {
+        margin-bottom: 10PX;
+    }
+}
+
+.bougie {
+    height: 180px;
+    width: 100%;
+
+}
+
+.sect4 {
+    background-color: beige;
+    padding: 4%;
+}
+
+.sect5 {
+    width: fit-content;
+    margin: auto;
+    padding: 32px;
+    box-shadow: 0 4px 15px #00000026;
+    border-radius: 18px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #46352A;
+    text-align: center;
+    color: white;
+}
+
+
+
+/* page a propos */
+.sect6{
+    background-color: beige;
+    text-align: center;
+}
+.div5{
+    display: flex;
 }
