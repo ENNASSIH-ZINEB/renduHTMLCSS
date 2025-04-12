@@ -61,7 +61,7 @@ p {
 
 .art1 {
     border: 1px solid #46352A;
-    padding: 10px;
+    padding: 30px;
 }
 
 .p1 {
@@ -75,11 +75,13 @@ h2 {
     text-align: center;
     padding: 2%;
 }
-.p4{
+
+.p4 {
     text-align: justify;
     width: 600px;
     margin: auto;
 }
+
 .sect3 {
     background-color: #F2EFEE;
 
@@ -90,9 +92,9 @@ h2 {
 
 .div3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 3%;
 }
-
 .art2 {
     border: 1px solid #46352A;
     box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.411);
@@ -159,7 +161,7 @@ footer {
     text-align: justify;
     align-items: center;
     WIDTH: 60%;
-    margin-left: 30%;
+    margin-left: 25%;
     gap: 60px;
     padding: 2%;
 }
@@ -169,7 +171,6 @@ footer {
     background-color: #F2EFEE;
     padding: 3%;
     gap: 40px
-
 }
 
 .div6 {
@@ -177,6 +178,7 @@ footer {
     flex-direction: column;
     align-items: self-start;
     gap: 30px;
+    MARGIN-LEFT: 20%;
 }
 
 .divp {
@@ -185,13 +187,25 @@ footer {
     gap: 30px;
     width: 274px;
 }
-.p2{
+
+.p2 {
     text-align: justify;
     width: 600px;
     margin-left: 23%;
     padding: 2%;
 }
-.p3{
+
+.p3 {
     text-align: justify;
     width: 436PX;
+}
+
+.sect9 {
+    display: flex;
+    gap: 6%;
+}
+
+.p4 {
+    text-align: justify;
+
 }
